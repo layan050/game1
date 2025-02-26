@@ -1,0 +1,72 @@
+/* ملف style.css */
+body {
+    background: #fff0f7;
+    font-family: 'Tajawal', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#login {
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 3px solid #ff69b4;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+button {
+    background: #ff69b4;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#game {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.player-card {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+.title-image {
+    width: 80px; /* صغري الرقم لتصغير الصورة */
+    height: 80px; /* غيري الحجم حسب اللي يناسبك */
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 10px; /* يبقى للزوايا المدورة */
+  }
+
+  .heart-image {
+    width: 50px; /* صغري الرقم لتصغير الصورة */
+    height: 50px; /* غيري الحجم حسب اللي يناسبك */
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 10px; /* يبقى للزوايا المدورة */
+  }
+  
+  .hint {
+    color: rgba(0, 0, 0, 0.5); /* لتقليل وضوح اللون (هنا اللون الأسود بنسبة 50%) */
+    font-size: 14px; /* لتصغير حجم النص */
+  }
+
+  .layan {
+    text-align: center; margin-top: 150px;
+    font-size: 14px;
+  }

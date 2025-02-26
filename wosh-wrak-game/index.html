@@ -1,0 +1,37 @@
+<!-- ملف index.html -->
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>وش وراك؟ </title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- شاشة الدخول -->
+    <div id="login">
+        <h1>وش وراك؟ <img src="images/strawberry.png" alt="لوجو اللعبة" class="title-image" /</h1>
+        <input type="text" id="nameInput" placeholder="اسمك">
+        <input type="text" id="roomCode" placeholder="كود الغرفة">
+        <button onclick="joinRoom()">انضمي الآن!</button>
+        <p class="hint">لو ما عندك كود، اكتب اسمك فقط واضغطي "انضمي"</p>
+        <p class="layan">ليان الافضل دائما<img src="images/heart.png" alt=" قلب" class="heart-image" />
+        </p>
+    </div>
+
+    <!-- شاشة اللعبة -->
+    <div id="game" style="display:none">
+        <div class="header">
+            <h2>كود الغرفة: <span id="roomId"></span></h2>
+            <div id="players"></div>
+        </div>
+        
+        <div id="round"></div>
+        <div id="actions"></div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

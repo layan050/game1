@@ -1,0 +1,13 @@
+{
+  "name": "wosh-wrak-game",
+  "version": "1.0.0",
+  "description": "لعبة ممتعة مع الأصدقاء تعتمد على معرفة الأسرار والتخمين!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
